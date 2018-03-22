@@ -1,0 +1,415 @@
+body
+{
+position: relative;
+margin: 0;
+}
+
+.main{
+  margin: 0;
+  width: 100%;
+  margin-top: -16px;
+  position: relative;
+}
+.head{
+  position: relative;
+  height: 700px;
+}
+header{
+  background-color: rgb(67, 103, 175);
+  opacity: 0.502;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  z-index: -1;
+  position: absolute;
+}
+.headerus{
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  z-index: -1;
+  background: url("img/header_background.jpg") no-repeat;
+  background-size: cover;
+}
+.big_logo{
+  background: url("img/big_logo.png") no-repeat;
+  width: 229px;
+  height: 140px;
+  margin: auto;
+  margin-top: 7%;
+}
+.mini_logo{
+  background: url("img/mini_logo.png") no-repeat;
+  background-position: center bottom;
+  width: 152px;
+  height: 24px;
+  float: left;
+  padding-right: 25%;
+  padding-top: 22px;
+}
+.nav{
+  padding-top: 3%;
+  background: transparent;
+  opacity: 1;
+  z-index: 1;
+}
+.nav ul{
+  text-transform: uppercase;
+  list-style-type: none;
+  float:right;
+  padding-right: 15%;
+}
+.nav ul li{
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 2.929;
+  text-align: center;
+  padding-left: 40px;
+  text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+}
+h1 {
+  font-size: 40.005px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+h2 {
+  font-size: 75.009px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 0.2;
+  text-align: center;
+  text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.contactus{
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 3px;
+  background-color: rgb(67, 141, 224);
+  width: 240px;
+  height: 45px;
+  margin: auto;
+  position: relative;
+}
+.screen{
+  position: relative;
+  height: 700px;
+  width: 100%;
+
+}
+h3{
+  margin: 0;
+  position: relative;
+  top:60px;
+  font-size: 40.005px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 72, 183);
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-align: center;
+}
+h4{
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 72, 184);
+  line-height: 1.2;
+  top:50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+.service{
+  margin: auto;
+  position: relative;
+  width: 20%;
+  top:80px;
+  display: inline-block;
+  margin-left: 10%;
+}
+.logo_service1{
+  background:url("img/logo_1.png");
+  width: 125px;
+  height: 85px;
+  position: relative;
+  margin: auto;
+}
+.logo_service2{
+  background:url("img/logo_2.png");
+  width: 125px;
+  height: 85px;
+  position: relative;
+  margin: auto;
+}
+.logo_service3{
+  background:url("img/logo_3.png");
+  width: 125px;
+  height: 85px;
+  position: relative;
+  margin: auto;
+}
+.logo_service4{
+  background:url("img/logo_4.png");
+  width: 125px;
+  height: 85px;
+  position: relative;
+  margin: auto;
+}
+.logo_service5{
+  background:url("img/logo_5.png");
+  width: 125px;
+  height: 85px;
+  position: relative;
+  margin: auto;
+}
+.logo_service6{
+  background:url("img/logo_6.png");
+  width: 125px;
+  height: 85px;
+  position: relative;
+  margin: auto;
+}
+h5{
+
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 72, 184);
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+h6{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 72, 184);
+  text-align: center;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  top:-20px;
+}
+.h7{
+  font-size: 40.005px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 72, 184);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top:40px;
+}
+.h8{
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 67, 179);
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  top:40px;
+}
+.servicew{
+  margin: auto;
+  position: relative;
+  width: 20%;
+  top:60px;
+  display: inline-block;
+  margin-left: 7%;
+}
+.logo_work{
+  background:url("img/logo_work.png") no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  margin: auto;
+}
+.works{
+  padding-left: 10%;
+}
+.second{
+  background-color: #f7f7f7;
+}
+.h9{
+  font-size: 36.005px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 67, 179);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.map{
+  position: relative;
+  top:80px;
+  width: 100%;
+}
+.address{
+  padding-top: 100px;
+  position: absolute;
+  background-color: rgb(48, 48, 154);
+  opacity: 0.502;
+  width:40%;
+  padding-left: 10%;
+  height:350px;
+  z-index:1;
+  font-size: 24.003px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+  }
+  .back{
+    position: absolute;
+    background: url("img/contactus.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+  .this{
+    background-color: rgb(34, 68, 138);
+    opacity: 0.502;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+  }
+  .h10{
+  font-size: 40px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+  position: relative;
+  top: 40px;
+  }
+  .cont{
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    top:80px;
+    display: inline-block;
+    height: 300px;
+    }
+  input[type="text"]{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    display: list-item;
+    width: 45%;
+    margin-bottom: 8px;
+
+  }
+  input[type="button"]
+  {
+    border-radius: 3px;
+    background-color: rgb(67, 141, 224);
+    position: relative;
+    width: 20%;
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    left:40%;
+  }
+  textarea{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: left;
+    resize: none;
+    width: 45%;
+    position: relative;
+    float: right;
+    top:-145px;
+    height: 115px;
+  }
+  .h11{
+    font-size: 40px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+    position:relative;
+    top:50px;
+  }
+  .h12{
+    top: 40px;
+    color: white;
+    position: relative;
+    font-size: 30px;
+  }
+  .dop{
+    font-size: 50px;
+  }
+  footer{
+    background-color: #484dab;
+    background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+    position: relative;
+    width: 100%;
+    position: absolute;
+ right: 0;
+ bottom: 0;
+ left: 0;
+    height: 100px;
+  }
+  p1{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.571;
+    text-align: left;
+    margin-top:40px;
+    margin-left: 10%;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+    float: left;
+  }
+  p2{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.571;
+    text-align: left;
+    margin-top:40px;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.75);
+    float: right;
+    margin-right: 10%;
+  }
+  a{
+    text-decoration: none;
+  }
